@@ -1,1 +1,31 @@
-@import "tailwindcss";
+    @import "tailwindcss";
+  
+    @font-face {
+        font-family: "Nastaligh";
+        src: url("/src/assets/fonts/Nastaligh.ttf") format("truetype");
+    }
+
+    @font-face {
+        font-family: "IranSans";
+        src: url("/src/assets/fonts/IRANSansWeb.ttf") format("truetype");
+    }
+
+
+    @font-face {
+        font-family: "Soraya";
+        src: url("/src/assets/fonts/Soraya.ttf") format("truetype");
+    }
+    
+
+    @theme {
+
+        --font-Nastaligh: "Nastaligh";
+        --font-IranSans: "IranSanse";
+        --font-Soraya: "Soraya";
+    }
+
+
+    body {
+        @apply font-IranSans; 
+      }
+      
